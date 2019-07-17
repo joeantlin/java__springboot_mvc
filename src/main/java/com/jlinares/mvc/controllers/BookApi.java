@@ -20,7 +20,7 @@ public class BookApi {
     }
     
     @RequestMapping("/api/books")
-    public List<Book> index() {
+    public List<Book> all() {
         return bookService.allBooks();
     }
     
